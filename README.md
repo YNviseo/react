@@ -6,7 +6,8 @@ In a console terminale  , Clone the Repo
 ### `git clone https://github.com/YNviseo/react.git`
 
 Change directory and fetch develop branch
-### `cd react & git fetch & git checkout develop`
+### `cd react`
+### `git fetch & git checkout develop`
 
 
 install the dependencies
