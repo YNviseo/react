@@ -19,8 +19,7 @@ export const ProtectedRoute = ({
                 pathname: "/login",
                 state: {
                   from: props.location
-                },
-                message  : " hey"
+                }
               }}
             />
           );
