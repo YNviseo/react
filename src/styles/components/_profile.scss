@@ -1,0 +1,52 @@
+@import '../commun/colors';
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    
+    .profile-box {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        img{
+            position: absolute;
+            top: -66px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+        
+        }
+    }
+
+    .profile-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+
+        .personnal-infos {
+            font-weight: bold;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        span {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: center;
+            color:$textColors;
+        }
+    } 
+ hr {
+     width: 20%;
+     margin: auto;
+ }
+
+ button {
+    width:auto;
+    margin: auto;
+    margin-top: 30px;
+ }
+ .link {
+     font-size: 16px;
+ }
+}
