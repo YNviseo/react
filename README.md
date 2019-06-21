@@ -3,7 +3,7 @@
 
 
 In a console terminale  , Clone the Repo 
-### `https://github.com/YNviseo/react.git`
+### `git clone https://github.com/YNviseo/react.git`
 
 Change directory and fetch develop branch
 ### `cd react & git fetch & git checkout develop`
